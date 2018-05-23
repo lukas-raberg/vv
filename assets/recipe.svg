@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="12px" viewBox="0 0 10 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>recipe</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="receptsida" transform="translate(-79.000000, -3554.000000)">
+            <g id="recipe" transform="translate(76.000000, 3552.000000)">
+                <rect id="Rectangle-9-Copy" x="0" y="0" width="16" height="16"></rect>
+                <path d="M5,2 L5,7 L4.5,7 C4.2185314,7 4,6.7814686 4,6.5 L4,2.0078125 L3,2.0078125 L3,6.5 C3,7.3225314 3.6774686,8 4.5,8 L5,8 L5,14 L6,14 L6,8 L6.5,8 C7.3225314,8 8,7.3225314 8,6.5 L8,2.0078125 L7,2.0078125 L7,6.5 C7,6.7814686 6.7814686,7 6.5,7 L6,7 L6,2 L5,2 Z M10,2 L10,14 L11,14 L11,10 L13,10 L13,4.5 C13,4.5 13.0069,3.8966007 12.697266,3.2773438 C12.387637,2.6580868 11.666667,2 10.5,2 L10,2 Z M11,3.1230469 C11.402625,3.2441048 11.665696,3.4485797 11.802734,3.7226562 C11.993106,4.1033994 12,4.5 12,4.5 L12,9 L11,9 L11,3.1230469 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
