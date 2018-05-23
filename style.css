@@ -44,6 +44,14 @@ header {
 	padding:0;
 }
 
+.page-header {
+	display:block;
+	min-height:5em;
+	max-width:100%;
+	margin:1em 0;
+	padding:0;
+}
+
 .center-top {
 	display:block;
 	width:100%;
@@ -354,9 +362,19 @@ input[type=checkbox]:checked + label {
 	padding:0 0 4em 0;
 }
 
-.recipe {
+.recipe, .page-container {
 	max-width:56em;
 	margin:0 auto;
+}
+
+.page-container p, h3 {
+	padding:0;
+}
+
+@media only screen and (min-width:768px) {
+	.page-container p, h3 {
+		padding:0 2em;
+	}
 }
 
 .stripe {
@@ -685,7 +703,9 @@ ul, menu, dir {
 
 /* FOOTER */ 
 .footer {
+	position:bottom;
 	width:100%;
+	bottom:0;
 }
 
 .footer-logo {
