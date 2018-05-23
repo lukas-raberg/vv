@@ -8,9 +8,15 @@ add_theme_support( 'automatic-feed-links' );
 add_theme_support( 'post-thumbnails' );
 global $content_width;
 if ( ! isset( $content_width ) ) $content_width = 640;
-register_nav_menus(
-array( 'main-menu' => __( 'Main Menu', 'blankslate' ) )
-);
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'header-menu' => __( 'Header Menu' ),
+      'extra-menu' => __( 'Extra Menu' )
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
 }
 add_action( 'wp_enqueue_scripts', 'blankslate_load_scripts' );
 function blankslate_load_scripts()

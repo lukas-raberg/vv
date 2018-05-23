@@ -4,7 +4,7 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width" />
 
-<!--		<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:700|Space+Mono:400,700" rel="stylesheet"> -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:700|Space+Mono:400,700" rel="stylesheet">
 		<script src="http://localhost:38200/wp-content/themes/vegoveckan/js/menu.js"></script>
 		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 		<?php wp_head(); ?>

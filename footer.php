@@ -5,16 +5,8 @@
 		<div id="footer-logo" class="footer-logo">
 		</div>
 		
-		<div id="footer-main-nav" class="footer-main-nav">
-			<ul class="mono xs white">
-				<li><a href="#">Recept</a></li>
-				<li><a href="#">Veckomenyer</a></li>
-				<li><a href="#">Inspiratören</a></li>
-				<li><a href="#">Om Vegoveckan</a></li>
-				<li><a href="#">Kontakt</a></li>
-				<li><a href="#">Instagram</a></li>
-				<li><a href="#">Facebook</a></li>
-			</ul>
+		<div id="footer-main-nav" class="footer-main-nav mono xs white">
+			<?php wp_nav_menu( array( 'theme_location' => 'extra-menu' ) ); ?>
 		</div>
 
 		<div id="footer-copy" class="footer-copy">
